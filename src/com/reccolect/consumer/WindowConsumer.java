@@ -1,7 +1,5 @@
 package com.reccolect.consumer;
 
-import com.reccolect.consumer.Consumer;
-
 import javax.swing.*;
 
 public class WindowConsumer implements Consumer {
@@ -10,6 +8,7 @@ public class WindowConsumer implements Consumer {
 
         JFrame frame = new JFrame("WTF!!!");
         JOptionPane.showMessageDialog(frame, result);
+        System.exit(0);
 
     }
 }
